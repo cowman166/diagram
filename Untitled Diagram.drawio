@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T23:28:24.952Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="Svor0fJQ3tuy8OKY8giT" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T23:32:57.136Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="nZT0cNRZovY0M6V8I8P7" version="24.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="786" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -73,8 +73,21 @@
         <mxCell id="wKdOTu-X7nGb3WF-pUgB-21" value="The homepage will be very simple and have a search bar tab(for alcohol) or a log in tab. I want to make it so you don&#39;t HAVE to have an account if you don&#39;t want to. The liquor search bar will have some inputs for you to choose or to not choose and it will take in any info and give you back a list of drinks with said alcohol. The list of doable cocktails will present on a new page and will all look similar and be listed out block style. You can click on each individual cocktail and it will display the recipe and some background about said cocktail. the user log in will be basic and have an add new account if you are a new user. The users dashboard will have and cocktails that they have favorited in the past as well as any cocktails that they have created on their own. This will also have a button to go straight to the search bar window and a button to go to a &quot;create your own&quot; cocktail. The create your own cocktail will just have some inputs for you to choose for your cocktail and a save button to make said cocktail in your favorites list.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="120" y="440" width="640" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="8B_5lzlC5shyq4_69ubc-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.371;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8B_5lzlC5shyq4_69ubc-3" target="8B_5lzlC5shyq4_69ubc-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1065" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="252" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8B_5lzlC5shyq4_69ubc-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8B_5lzlC5shyq4_69ubc-3" target="8B_5lzlC5shyq4_69ubc-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8B_5lzlC5shyq4_69ubc-3" value="Ingredients" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="930" width="140" height="150" as="geometry" />
+          <mxGeometry x="180" y="990" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="8B_5lzlC5shyq4_69ubc-26" value="Ingredient ID&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Description&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Allergen&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8B_5lzlC5shyq4_69ubc-3">
           <mxGeometry y="30" width="140" height="120" as="geometry" />
@@ -86,7 +99,7 @@
           <mxGeometry y="30" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="8B_5lzlC5shyq4_69ubc-11" value="Favourites" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="930" width="140" height="120" as="geometry" />
+          <mxGeometry x="390" y="700" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8B_5lzlC5shyq4_69ubc-14" value="Favourite ID&lt;div&gt;&lt;br&gt;&lt;div&gt;User ID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Recipe ID&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8B_5lzlC5shyq4_69ubc-11">
           <mxGeometry y="30" width="140" height="90" as="geometry" />
@@ -97,14 +110,17 @@
         <mxCell id="8B_5lzlC5shyq4_69ubc-18" value="User ID&lt;div&gt;&lt;br&gt;&lt;div&gt;Username&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Email&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Password&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Screen Name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Profile Pic&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Allergies&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;History&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8B_5lzlC5shyq4_69ubc-15">
           <mxGeometry y="30" width="100" height="220" as="geometry" />
         </mxCell>
+        <mxCell id="8B_5lzlC5shyq4_69ubc-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8B_5lzlC5shyq4_69ubc-27" target="8B_5lzlC5shyq4_69ubc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8B_5lzlC5shyq4_69ubc-27" value="UserIngredients Table" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="640" width="140" height="170" as="geometry" />
+          <mxGeometry x="-10" y="950" width="140" height="170" as="geometry" />
         </mxCell>
         <mxCell id="8B_5lzlC5shyq4_69ubc-28" value="UserIngredient ID&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;User ID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ingredient ID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Quantity&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Units&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8B_5lzlC5shyq4_69ubc-27">
           <mxGeometry y="30" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="8B_5lzlC5shyq4_69ubc-29" value="Shopping List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="840" width="140" height="170" as="geometry" />
+          <mxGeometry x="430" y="920" width="140" height="170" as="geometry" />
         </mxCell>
         <mxCell id="8B_5lzlC5shyq4_69ubc-30" value="Shopping List ID&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;User ID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ingredient ID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Quantity&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Units&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8B_5lzlC5shyq4_69ubc-29">
           <mxGeometry y="30" width="140" height="140" as="geometry" />
@@ -114,6 +130,11 @@
         </mxCell>
         <mxCell id="8B_5lzlC5shyq4_69ubc-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.673;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.03;exitY=0.046;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8B_5lzlC5shyq4_69ubc-18" target="8B_5lzlC5shyq4_69ubc-10">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8B_5lzlC5shyq4_69ubc-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.907;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8B_5lzlC5shyq4_69ubc-10" target="8B_5lzlC5shyq4_69ubc-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="800" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
